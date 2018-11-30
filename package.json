@@ -1,0 +1,31 @@
+{
+  "name": "easy-proxsy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yidongkaifa/easy-proxsy.git"
+  },
+  "keywords": [
+    "easy",
+    "proxsy"
+  ],
+  "author": "yidongkaifa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yidongkaifa/easy-proxsy/issues"
+  },
+  "homepage": "https://github.com/yidongkaifa/easy-proxsy#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "http-proxy-middleware": "^0.18.0",
+    "path": "^0.12.7"
+  }
+}
